@@ -2,11 +2,11 @@ import "./App.css";
 
 function App() {
   return (
-    <div className="App">
-      <div className="calculator-grid"></div>
-      <div className="output"></div>
-      <div className="previous-operand"></div>
-      <div className="current-operand"></div>
+    <div className="calculator-grid">
+      <div className="output">
+        <div className="previous-operand"></div>
+        <div className="current-operand"></div>
+      </div>
       <button className="span-two">AC</button>
       <button>DEL</button>
       <button>÷</button>
