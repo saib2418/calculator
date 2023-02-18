@@ -37,18 +37,18 @@ body{
   grid-column: 1 / -1;
   background-color: rgba(0, 0, 0, .75);
   flex-direction: column;
-  align-itmes: flex-end;
+  align-items: flex-end;
   justify-content: space-around;
   word-wrap: break-word;
   word-break: break-all;
 }
 
-.ouput .previous-operand{
+.previous-operand{
   color: rgba(255, 255, 255, .75);
   font-size: 1.5rem;
 }
 
-.ouput .current-operand{
+.current-operand{
   color: white;
   font-size: 2.5rem;
 }
